@@ -5,6 +5,7 @@ node
     {
       git credentialsId: '4970c762-b912-402f-ac68-f5877a416d28', url: 'https://github.com/shikshithahealthcheck-astrazenica/maven-web-application.git'
     }
+    /*
     stage('build')
     {
     sh "${mavenHome}/bin/mvn clean package"
@@ -31,5 +32,6 @@ node
 Thanks 
 Shikshitha''', subject: 'Build is over', to: 'shikshithagowda76@gmail.com'
     }
+    */
 }
 
